@@ -1,3 +1,8 @@
+.titlebox {
+  display: flex;
+  justify-content: center;
+}
+
 .title {
   font-size: 10rem;
   color: blue;
