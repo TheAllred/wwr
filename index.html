@@ -5,34 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>High Side River Rafting</title>
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <header>
-      <a id="logo_link" href="index.html">
-        <img class="logo" src="images/icon.png" alt="High Side Logo" />
-      </a>
       <nav>
-        <a href="index.html">Home</a>
-        <a href="#">Page 2</a>
-        <a href="site-plan-rafting.html">Site Plan</a>
-        <a href="contactus.html">Contact Us</a>
+        <a href="index.html">
+          <img
+            class="logo"
+            src="images/iconalpha.png"
+            alt="High Side Logo"
+            style="width: 5vw"
+          />
+        </a>
+        <a class="navlinks" href="index.html">Home</a>
+        <a class="navlinks" href="#">Page 2</a>
+        <a class="navlinks" href="site-plan-rafting.html">Site Plan</a>
+        <a class="navlinks" href="contactus.html">Contact Us</a>
       </nav>
     </header>
-    <div id="hero">
-      <div id="hero-box">
+    <section>
+      <div class="heroBox">
+        <div class="heroText"></div>
         <img
-          id="hero-img"
           src="images/hero.png"
           alt="People enjoying white water rafting"
+          width="100%"
         />
-      </div>
-      <section id="hero-msg">
-        <h1 class="home-title">Stay in the boat</h1>
-        <h4>Make Memories with Dry Oar</h4>
-        <div class="button-box">
-          <a class="book" href="rates.html">Book Now</a>
+        <div class="herotitle">
+          Lorem Ipsum is simply dummy text
+          <div class="herosub">Hello!</div>
+          <button
+            class="bookButton"
+            type="button"
+            onclick="alert('Trip Booked!')"
+          >
+            Book Now
+          </button>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+    <section style="padding-bottom: 20px">
+      <div class="productGallery">
+        <div class="product">
+          <img src="images/camping.jpeg" alt="Camping" />
+          <h2>
+            <img src="images/fire_icon.png" alt="fire_icon" />
+            Come Camping
+          </h2>
+        </div>
+        <div class="product">
+          <img src="images/rapids.jpeg" alt="rapids" />
+          <h2>
+            <img src="images/river_icon.png" alt="river_icon" />
+            Ride Rapids
+          </h2>
+        </div>
+        <div class="product">
+          <img src="images/rivers.jpeg" alt="Rivers" />
+          <h2>
+            <img src="images/oars.png" alt="" />
+            Experience Rivers
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="uglybrownbox">
+        <div class="mountains">
+          <img src="images/mountains.jpeg" alt="mountains" />
+          <h2 class="mountainNoteBox">Hello!</h2>
+          <p class="mountainNoteBox" id="lesserNote">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters,
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h3>High Side &copy; 2021 - Kevin Allred</h3>
+      <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+      <h3><a href="contactus.html">Contact ME</a></h3>
+      <div class="social">
+        <a href="https://facebook.com">
+          <img src="images/facebook.png" alt="fb icon" />
+        </a>
+        <a href="https://twitter.com">
+          <img src="images/twitter.png" alt="twitter icon" />
+        </a>
+        <a href="https://instagram.com">
+          <img src="images/instagram.png" alt="instagram icon" />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
