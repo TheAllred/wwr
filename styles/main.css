@@ -150,3 +150,52 @@ footer a:hover {
 footer h3:hover {
   color: gray;
 }
+
+@media screen and (max-width: 900px) {
+  .heroBox,
+  .productGallery {
+    display: block;
+    height: auto;
+  }
+  nav,
+  footer {
+    flex-direction: column;
+  }
+  nav {
+    position: static;
+  }
+  nav a {
+    display: block;
+    padding: 5px;
+  }
+  .navlinks {
+    font-size: 15px;
+  }
+
+  .herotitle {
+    margin-top: 0;
+  }
+  .herosub h4 {
+    display: none;
+  }
+  .home-title {
+    font-size: 25px;
+    color: #6f7364;
+  }
+  .product {
+    margin: 50px auto;
+    width: 60%;
+  }
+  #uglybrownbox {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .mountains,
+  #mountainNoteBox {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  footer {
+    margin-top: 25px;
+  }
+}
